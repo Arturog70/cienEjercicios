@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- *Crearemos un arreglo de 30 posiciones, para almacenar las 30 ventas del mes.
+ *Crearemos un arreglo de 10 posiciones, para almacenar las 10 ventas del mes.
  * Y al final el programa mostrará en pantalla cuáles
  * y en total cuántas superan la cantidad de $2000.
  */
