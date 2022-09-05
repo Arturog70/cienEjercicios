@@ -19,12 +19,12 @@ Y el programa sumará esos números, y obtendrá su promedio
             cantidadDeNumeros++;
             System.out.println("introduzca otro numero");
             num= sc.nextInt();
-        }             if (media==0){
+        }       if (cantidadDeNumeros==0){
                 System.out.println("no se puede sumar");
             }
             else{
-                media= suma/cantidadDeNumeros;
-            System.out.println("");
+                media= sum/cantidadDeNumeros;
+            System.out.println("La media es "+ media);
             }
     }
 }
