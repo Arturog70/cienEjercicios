@@ -18,7 +18,7 @@ public class Ejercicio_2 {
             }
         }
 
-        System.out.println("el nuemro mayor es "+ mayor);
+        System.out.println("el numero mayor es "+ mayor);
     }
 
 }
