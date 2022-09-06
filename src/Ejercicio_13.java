@@ -7,7 +7,7 @@ public class Ejercicio_13 {
     public static void main ( String [] args){
         int j = 0;
         int arr []= new int[10];
-        
+
         Scanner sc= new Scanner(System.in);
         for ( j = 0; j< arr.length; j++)
         {
