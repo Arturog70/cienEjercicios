@@ -9,33 +9,33 @@ public class Ejercicio_15 {
 
     public static void main( String[]args)
     {
-     int A[] = new int [12];
-     int B[] = new int [12];
-     int C[] = new int [24];
+     int A[] = new int [5];
+     int B[] = new int [5];
+     int C[] = new int [10];
 
         Scanner sc= new Scanner(System.in);
         System.out.println("ingresa los numeros del arreglo 'A' ");
-        for(int i= 0; i<12; i++)
+        for(int i= 0; i<5; i++)
         {
             System.out.println("Ingresa el numero " + (i+ 1));
             A[i]= sc.nextInt();
         }
         System.out.println("ingresa los numeros del arreglo 'B' ");
-        for(int i= 0; i<12; i++)
+        for(int i= 0; i<5; i++)
         {
             System.out.println("Ingresa el numero " + (i+ 1));
             B[i]= sc.nextInt();
         }
         int i= 0;
         int j= 0;
-        while (i<12)
+        while (i<5)
         {
-            for(int k =0; k<3; k++)
+            for(int k =0; k<2; k++)
             {
                 C[j]= A[i+k];
                 j++;
             }
-            for(int k =0; k<3; k++)
+            for(int k =0; k<2; k++)
             {
                 C[j]= B[i+k];
                 j++;
@@ -43,7 +43,7 @@ public class Ejercicio_15 {
             i+=3;
         }
         System.out.println("Arreglo 'C' ");
-        for( j=0; j<24; j++)
+        for( j=0; j<10; j++)
         {
             System.out.println(C[j]);
         }
