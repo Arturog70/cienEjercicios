@@ -45,6 +45,7 @@ public class Ejercicio_19 {
             {
                 dias= horas/ 24;
                 restHoras= horas%24;
+                System.out.println("Tu coche estuvo aparcado " + dias +"dias" +", y  "+ restHoras+ "horas" );
                 preciResto= restHoras*15;
                 if (preciResto>=250)
                 {
